@@ -1,0 +1,14 @@
+to make a node server:
+
+python -m SimpleHTTPServer 80&
+
+
+
+on h2 , ddos:
+
+sudo hping3 --faster --rand-source 10.0.0.1
+
+
+go back to mininet:
+
+h3 ping h1
